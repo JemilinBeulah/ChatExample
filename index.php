@@ -92,7 +92,7 @@ $("#submitmsg").click(function(){
     session_destroy();
     header("Location: index.php"); //Redirect the user
 }
-setInterval (loadLog, 2500);	//Reload file every 2500 ms or x ms if you wish
+//setInterval (loadLog, 2500);	//Reload file every 2500 ms or x ms if you wish
 ?>
 
 <script>
@@ -125,6 +125,7 @@ setInterval (loadLog, 2500);	//Reload file every 2500 ms or x ms if you wish
 		  	},
 		});
 	}
+        setInterval (loadLog, 2500);	//Reload file every 2500 ms or x ms if you wish to ch
         
 </script>
 </body>
